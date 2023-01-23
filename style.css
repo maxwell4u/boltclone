@@ -1,0 +1,726 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+
+
+.section1 {
+    width: 100%;
+    height: 40px;
+    background-color: beige;
+    display: flex;
+    align-items: center;
+    padding: 0 150px;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+.logo-txt {
+    display: flex;
+    font-size: 12px;
+    gap: 3px;
+    align-items: center;
+    overflow: hidden;
+
+}
+
+.logo-txt img {
+    width: 20px;
+}
+
+.list ul {
+    display: flex;
+    gap: 20px;
+}
+
+.g {
+    color: grey;
+}
+
+.G {
+    color: forestgreen;
+}
+
+.section2 {
+    width: 100%;
+    height: 60px;
+    background-color: white;
+    padding: 0 150px;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    color: rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+}
+
+.bolt {
+    display: flex;
+    gap: 30px;
+    overflow: hidden;
+}
+
+.section2 select {
+    border: none;
+    width: 15px;
+}
+
+.section3 {
+    height: 700px;
+    background-color: rgb(136, 218, 136);
+    padding-left: 150px;
+    color: white;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+.section3 h1 {
+    font-size: 65px;
+    line-height: 60px;
+
+
+}
+
+.im {
+    display: flex;
+    margin-top: 20px;
+}
+
+.drop {
+    display: flex;
+    margin-top: 100px;
+}
+.mine img{
+    display: flex;
+    justify-content: flex-end;
+}
+
+    
+
+
+.first {
+    margin-top: 150px;
+}
+
+.first p {
+    margin-top: 30px;
+}
+
+.im img:nth-child(1) {
+    margin-top: 10px;
+}
+
+.section4 {
+    height: 250px;
+    width: 100%;
+    background-color: dodgerblue;
+    padding-left: 300px;
+    padding-right: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    overflow: hidden;
+}
+
+.section4 h1 {
+    font-size: 35px;
+}
+
+.section4 p {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.section4 button {
+    width: 200px;
+    height: 50px;
+    border-radius: 30px;
+    border: none;
+    color: rgba(0, 0, 0, 0.897);
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.section5 {
+    height: 400px;
+    width: 100%;
+    background-color: beige;
+    padding: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    overflow: hidden;
+}
+
+.section5 img {
+    margin-bottom: 50px;
+}
+
+.section5 h1 {
+    margin-bottom: 20px;
+}
+
+.section5 p {
+    color: gray;
+    font-size: 18px;
+}
+
+.section6 {
+    height: 50px;
+    width: 100%;
+    background-color: #c9f5e6;
+    padding: 0 150px;
+    margin-top: 0%;
+    justify-content: space-between;
+    overflow: hidden;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    background-image: linear-gradient(180deg, beige, #c9f5e6);
+
+}
+
+.section6 img {
+    height: 700px;
+    display: grid;
+    align-items: flex-end;
+}
+
+
+.section6 h1 {
+    font-size: 50px;
+    color: rgba(0, 0, 0, 0.733);
+    margin-bottom: 30px;
+}
+
+.section6 p {
+    font-size: 19px;
+    color: grey;
+
+}
+
+.section7 {
+    width: 100%;
+    height: 500px;
+    background-color: beige;
+    padding: 150px;
+    display: flex;
+    justify-content: space-around;
+    overflow: hidden;
+}
+
+.section7 h2 {
+    margin-bottom: 20px;
+}
+
+.section7 P {
+    font-size: 19px;
+    color: grey;
+    font-weight: 300;
+}
+
+.section7 p span {
+    color: green;
+}
+
+.section8 {
+    background-color: rgb(136, 218, 136);
+    height: 400px;
+    width: 100%;
+    color: white;
+    padding: 100px;
+    display: grid;
+    justify-content: center;
+    overflow: hidden;
+
+
+}
+
+.sec {
+    display: flex;
+    gap: 4px;
+    margin-bottom: 40px;
+}
+
+.sec img:nth-child(1) {
+    margin-top: 15px;
+}
+
+.section8 p {
+    font-size: 19px;
+    margin-left: 50px;
+}
+
+.section8 h1 {
+    font-size: 48px;
+}
+
+.section8 span {
+    border-bottom: 1px solid white;
+}
+
+.section9 {
+    width: 100%;
+    height: 400px;
+    background-color: beige;
+    padding: 100px;
+    display: flex;
+    gap: 30px;
+    justify-content: space-around;
+    overflow: hidden;
+}
+
+.k16 {
+    display: grid;
+    gap: 20px;
+}
+
+.eng {
+    display: flex;
+    gap: 10px;
+    margin-top: 40px;
+    width: 180px;
+    height: 30px;
+    background-color: gainsboro;
+    border-radius: 10px;
+}
+
+.eng p {
+    font-size: 14px;
+    margin-top: 4px;
+}
+
+.section9 ul li {
+    font-size: 16px;
+    margin-top: 15px;
+    color: rgba(0, 0, 0, 0.719);
+}
+
+.section9 ul li:hover {
+    color: green;
+}
+
+.eng:nth-child(1) {
+    width: 120px;
+
+}
+
+.section10 {
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 150px;
+    padding-right: 150px;
+    border-bottom: 1px solid lightgray;
+    background-color: beige;
+    width: 100%;
+    overflow: hidden;
+}
+
+.kul {
+    display: flex;
+    gap: 30px;
+}
+
+.kas {
+    display: flex;
+    gap: 20px;
+}
+
+.f1 {
+    height: 30px;
+    width: 150px;
+    background-color: lightgray;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.f2 {
+
+    height: 30px;
+    width: 200px;
+    background-color: lightgray;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.f3 {
+
+
+    height: 30px;
+    width: 150px;
+    background-color: lightgray;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section11 {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    padding-left: 150px;
+    padding-right: 150px;
+    justify-content: space-between;
+    align-items: center;
+    color: grey;
+    background-color: beige;
+    overflow: hidden;
+}
+
+.kuu {
+    display: flex;
+    gap: 10px;
+}
+
+.kuu p:hover {
+    color: darkgreen;
+}
+
+
+@media screen and (max-width:1225px) {
+    html,body{
+        height: 100%;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+    }
+    .section1 {
+        background-color: yellow;
+        padding: 0 100px;
+        overflow: hidden;
+    }
+
+    .section2 {
+        padding: 0 100px;
+        width: max-content;
+        overflow: hidden;
+    }
+
+    .section3 {
+        padding: 0 100px;
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .section3 h2 {
+        font-size: 18px;
+    }
+
+    .section3 h1 {
+        font-size: 45px;
+        line-height: 1;
+    }
+
+    .section4 {
+        padding: 50px 250px;
+        display: grid;
+        width: max-content;
+        overflow: hidden;
+    }
+
+    .section4 button {
+        margin-left: 100px;
+        margin-top: 30px;
+
+
+    }
+
+    .section5 {
+        padding: 0 100px;
+        width: max-content;
+        display: flex;
+        gap: 30px;
+        overflow: hidden;
+    }
+
+    .section5 h1 {
+        font-size: 30px;
+    }
+
+    .section5 p {
+        font-size: 16px;
+    }
+
+    .section6 {
+        padding: 0 150px;
+        display: flex;
+        justify-content: center;
+        width: max-content;
+        overflow: hidden;
+
+    }
+
+    .section6 p {
+        font-size: 18px;
+        margin-top: 4px;
+    }
+
+    .section6 h1 {
+        font-size: 35px;
+        margin-bottom: 0%;
+    }
+
+    .section6 img {
+        width: 500px;
+    }
+
+    .section7 {
+        padding: 50px 100px;
+        display: flex;
+        width: 100%;
+        gap: 20px;
+        overflow: hidden;
+    }
+
+    .section9 {
+        padding: 40px 80px;
+    }
+
+
+}
+
+@media screen and (max-width:899px) {
+    html,body{
+        height: 100%;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+    }
+    .section1 {
+        background-color: skyblue;
+        padding: 0 50px;
+        overflow: hidden;
+
+    }
+
+    .section2 {
+        padding: 0 50px;
+        overflow: hidden;
+    }
+
+    .section3 {
+        padding: 0 50px;
+        overflow: hidden;
+    }
+
+    .section3 h1 {
+        font-size: 33px;
+    }
+
+    .im img {
+
+        display: flex;
+
+
+    }
+
+    .section4 {
+        padding: 50px 250px;
+        overflow: hidden;
+    }
+
+    .section5 {
+        padding: 0 50px;
+    }
+
+    .section5 img {
+        margin-bottom: 20px;
+    }
+
+    .section5 h1 {
+        font-size: 25px;
+    }
+
+    .section6 {
+        padding: 0 50px;
+    }
+
+    .section6 img {
+        width: 400px;
+    }
+
+    .section7 {
+        display: grid;
+    }
+
+    .section10 {
+        padding: 0 50px;
+        display: flex;
+        gap: 6px;
+        overflow: hidden;
+    }
+
+    .kas {
+        display: flex;
+        gap: 4px;
+        overflow: hidden;
+    }
+
+    .kul h4 {
+        font-size: 14px;
+        margin-right: 20px;
+
+    }
+}
+
+
+@media screen and (max-width:699px) {
+    html,body{
+        height: 100%;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+    }
+    .section1 {
+        display: none;
+    }
+
+    .section1 ul {
+        display: flex;
+        gap: 10px;
+        font-size: 15px;
+    }
+
+    .section2 {
+        padding: 0 40px;
+        display: flex;
+        gap: 10px;
+        font-size: 15px;
+        overflow: hidden;
+
+    }
+
+    .section3 {
+        display: flex;
+        justify-content: space-between;
+        overflow: hidden;
+
+        width: fit-content;
+    }
+
+    .mine img{
+    
+
+        
+        width: 500px;
+        padding-right: 0%;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .section7 {
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .section9 {
+        height: max-content;
+        display: grid;
+        overflow: hidden;
+    }
+
+    .section10 {
+        height: max-content;
+        display: grid;
+        padding: 0 10px;
+        overflow: hidden;
+    }
+
+    .kul {
+        display: flex;
+        gap: 2px;
+        margin-top: 20px;
+        overflow: hidden;
+    }
+
+    .section11 {
+        padding: 0 40px;
+        overflow: hidden;
+    }
+
+
+}
+
+
+@media screen and (max-width:499px) {
+    html,body{
+        height: 100%;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+    }
+    .section1{
+        display:none;
+    }
+    .section3{
+        display: grid;
+        height: fit-content;
+        width: max-content;
+        padding: 0%;
+        overflow: hidden;
+    }
+
+    .mine img{
+
+        width: max-content;
+        overflow: hidden;
+    }
+    .section4{
+        padding:0 100px;
+        overflow: hidden;
+    }
+    .section4 button{
+        margin-bottom: 50px;
+    }
+    .bolt{
+        display: none;
+    }
+    .section5{
+        display: grid;
+        height: max-content;
+        width: 100%;
+        overflow: hidden;
+    }
+    .section6{
+        display: grid;
+        height: fit-content;
+        overflow: hidden;
+    }
+    .section10{
+        display: grid;
+        overflow: hidden;
+    }
+    .section11{
+        display: grid;
+        overflow: hidden;
+    }
+    .kas{
+        margin-left: 30px;
+    }
+    .kul{
+        display: grid;
+        height: max-content;
+        margin-top: 20px;
+        gap: 20px;
+        justify-content: center;
+        margin-left: 30px;
+        overflow: hidden;
+    }
+}
